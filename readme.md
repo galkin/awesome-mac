@@ -20,8 +20,10 @@ This repository is a list of Mac application and tools what I use on my MacBook 
 `brew install mas`
 - [zsh](https://www.zsh.org/) - defualt shell instead bash tuned by Oh My Zsh.<br/>
 `brew install zsh`
-- [Oh My ZSH!](http://ohmyz.sh) - tuning for zsh. I used it with [dracula theme](https://draculatheme.com/zsh/)<br/>
-`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+- [Oh My ZSH!](http://ohmyz.sh) - tuning for zsh. I used it with [dracula theme](https://draculatheme.com/zsh/) and [zsh-completions](https://github.com/zsh-users/zsh-completions)<br/>
+`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+brew install zsh-completions
+`
 
 ### CLI Tools
 - [GitHub Markdown previewer](https://github.com/joeyespo/grip) - Add `grip` CLI command, which create webserver for preview for Readme.md render in Github. I use it for creating this document.<br/>
@@ -45,10 +47,14 @@ This repository is a list of Mac application and tools what I use on my MacBook 
 `brew cask install 1password`
 - [BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) - control audio levels for individual apps and automatically pauses your music player when other audio starts playing and unpauses it afterwards. Also provide ability to record system audio.<br/>
 `brew cask install background-music`
+- [BetterZip](https://macitbetter.com/) - Archive tool supports ZIP, TAR, TGZ, TBZ, TXZ (new), 7-ZIP, RAR
+`brew cask install betterzip`
 - [CheatSheet](https://www.cheatsheetapp.com/CheatSheet/) - long press ⌘ shows your short cuts at any application. <br/>
 `brew cask install cheatsheet`
 - [Clipy](https://clipy-app.com) - sexy clipboard manager which store clipboard in different formats. Also it supports snippets, but I use Dash for that.<br/>
 `brew cask install clipy`
+- [Dash](https://kapeli.com/dash) 💰 - Awesome API documentation browser and code snippet manager.
+`brew cask install dash`
 - [WebStorm](http://www.jetbrains.com/webstorm/) 💰 - my favorite IDE.<br/>
 `brew cask install webstorm`
 - [Visual Studio Code](https://code.visualstudio.com/) - mainly I use it like text editor instead nano/vim/sublime. I know, it can be customized as IDE, but I prefer webstorm.<br/>
@@ -71,9 +77,12 @@ This repository is a list of Mac application and tools what I use on my MacBook 
 `brew cask install teamviewer`
 - [VLC](http://www.videolan.org/index.html) - video player, which I use with different speed <br/>
 `brew cask install vlc`
-- [coconut Battery](https://www.coconut-flavour.com/coconutbattery/) - better accumulator indicator <br/>
+- [Coconut Battery](https://www.coconut-flavour.com/coconutbattery/) - better accumulator indicator <br/>
 `brew cask install coconutbattery`
-
+- [font-microsoft-office](https://github.com/colindean/homebrew-fonts-nonfree) - The Microsoft Office 2007 fonts
+`brew tap colindean/fonts-nonfree && brew cask install font-microsoft-office`
+- [Postman](https://www.getpostman.com/) - Tool for simplify development and testing REST API.
+`brew cask install postman`
 
 ### Todo
 - [ ] Add categories
