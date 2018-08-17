@@ -83,6 +83,8 @@ brew install zsh-completions
 `brew tap colindean/fonts-nonfree && brew cask install font-microsoft-office`
 - [Postman](https://www.getpostman.com/) - Tool for simplify development and testing REST API.
 `brew cask install postman`
+- [Suunto Moveslink2](http://www.movescount.com/connect?os=mac) - sync app for my Suunto Sport watch.
+`brew cask install suunto-moveslink2`
 
 ### Todo
 - [ ] Add categories
