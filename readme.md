@@ -91,3 +91,4 @@ brew install zsh-completions
 - [ ] Add header image
 - [ ] Add more [pictures](https://gist.github.com/rxaviers/7360908)
 - [ ] Add settings
+
