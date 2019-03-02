@@ -86,6 +86,9 @@ brew install zsh-completions
 - [Suunto Moveslink2](http://www.movescount.com/connect?os=mac) - sync app for my Suunto Sport watch.
 `brew cask install suunto-moveslink2`
 
+### Deep settings
+- [Enable Touch ID for sudo](https://medium.com/@jalalazimi/how-to-enable-touch-id-for-sudo-on-macbook-pro-46272ac3e2df)
+
 ### Todo
 - [ ] Add categories
 - [ ] Add header image
